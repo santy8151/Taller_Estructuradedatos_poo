@@ -3,7 +3,7 @@
 ## Taller 01 de POO - Clase Time
 
 <p align="center">
-  <img src="https://www.itm.edu.co/wp-content/uploads/formatos/logo-ITM.png" alt="Logo ITM" width="160">
+  <img src="assets/logo_itm.png" alt="Logo ITM Institucion Universitaria" width="230">
 </p>
 
 ## Datos del estudiante
