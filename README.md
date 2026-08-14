@@ -1,4 +1,6 @@
-# Taller 01 de POO - Clase Time
+# Taller_Estructuradedatos_poo
+
+## Taller 01 de POO - Clase Time
 
 <p align="center">
   <img src="https://www.itm.edu.co/wp-content/uploads/formatos/logo-ITM.png" alt="Logo ITM" width="160">
