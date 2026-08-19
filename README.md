@@ -1,4 +1,4 @@
-# Taller_Estructuradedatos_poo
+# taller_time_santiagoSuarez
 
 ## Taller 01 de POO - Clase Time
 
@@ -30,7 +30,7 @@ TallerTime_FINAL_5/
 |   |-- Program.cs                  Programa principal y manejo de excepciones
 |   |-- Time.cs                     Clase Time y sus operaciones
 |   |-- InvalidTimeException.cs     Excepcion personalizada
-|   `-- taller_time.csproj          Configuracion del proyecto
+|   `-- taller_time_santiagoSuarez.csproj  Configuracion del proyecto
 |-- bin/                            Archivos compilados, generados localmente
 |-- obj/                            Archivos intermedios, generados localmente
 |-- enlaces_entrega.txt             Enlaces del repositorio y video
@@ -43,7 +43,7 @@ Las carpetas `bin` y `obj` se generan automaticamente fuera de `taller_time` y n
 - `Time.cs`: contiene la clase principal del taller.
 - `Program.cs`: contiene el `Main` con las pruebas solicitadas.
 - `InvalidTimeException.cs`: excepcion personalizada para valores invalidos.
-- `taller_time.csproj`: configuracion necesaria para compilar el proyecto con .NET.
+- `taller_time_santiagoSuarez.csproj`: configuracion necesaria para compilar el proyecto con .NET.
 
 ## Clase Time
 
@@ -93,7 +93,7 @@ Tambien incluye los metodos:
 Desde la carpeta principal del proyecto:
 
 ```powershell
-dotnet run --project .\taller_time\taller_time.csproj
+dotnet run --project .\taller_time\taller_time_santiagoSuarez.csproj
 ```
 
 ## Entrega
