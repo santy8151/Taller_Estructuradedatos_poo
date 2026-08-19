@@ -106,11 +106,14 @@ namespace taller_time
 
         public bool IsOtherDay(Time other)
         {
+            ArgumentNullException.ThrowIfNull(other);
             return ToMilliseconds() + other.ToMilliseconds() >= 86_400_000L;
         }
 
         public Time Add(Time other)
         {
+            ArgumentNullException.ThrowIfNull(other);
+
             int milliseconds = _millisecond + other._millisecond;
             int seconds = _second + other._second + (milliseconds / 1_000);
             milliseconds %= 1_000;

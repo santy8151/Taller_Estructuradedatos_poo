@@ -6,10 +6,10 @@ namespace taller_time
     {
         private static void Main()
         {
+            CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
+
             try
             {
-                CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
-
                 Time t1 = new Time();
                 Time t2 = new Time(14);
                 Time t3 = new Time(9, 34);
@@ -30,7 +30,7 @@ namespace taller_time
 
                 Time invalid = new Time(45, -7, 90, -87);
             }
-            catch (InvalidTimeException ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }

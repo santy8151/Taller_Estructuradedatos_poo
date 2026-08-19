@@ -21,6 +21,25 @@ El programa principal crea cinco objetos `Time`, muestra sus conversiones a mili
 
 ## Especificacion tecnica
 
+## Estructura de carpetas
+
+```text
+TallerTime_FINAL_5/
+|-- assets/                         Recursos visuales de la entrega
+|-- taller_time/                    Codigo fuente y proyecto .NET
+|   |-- Program.cs                  Programa principal y manejo de excepciones
+|   |-- Time.cs                     Clase Time y sus operaciones
+|   |-- InvalidTimeException.cs     Excepcion personalizada
+|   `-- taller_time.csproj          Configuracion del proyecto
+|-- bin/                            Archivos compilados, generados localmente
+|-- obj/                            Archivos intermedios, generados localmente
+|-- enlaces_entrega.txt             Enlaces del repositorio y video
+|-- README.md                       Documentacion
+`-- .gitignore                      Archivos que no se deben subir
+```
+
+Las carpetas `bin` y `obj` se generan automaticamente fuera de `taller_time` y no forman parte del codigo fuente de la entrega.
+
 - `Time.cs`: contiene la clase principal del taller.
 - `Program.cs`: contiene el `Main` con las pruebas solicitadas.
 - `InvalidTimeException.cs`: excepcion personalizada para valores invalidos.
