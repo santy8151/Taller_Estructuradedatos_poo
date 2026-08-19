@@ -99,7 +99,7 @@ dotnet run --project .\taller_time\taller_time_santiagoSuarez.csproj
 ## Entrega
 
 Repositorio Git: https://github.com/santy8151/Taller_Estructuradedatos_poo.git  
-Video publico de YouTube:
+Video publico de YouTube:https://www.youtube.com/watch?v=-MjHpx2Wlss
 
 ## Trabajo academico
 
